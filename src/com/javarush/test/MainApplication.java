@@ -9,6 +9,7 @@ public class MainApplication {
         int itemscount = 0;
         boolean sort1 = false;
         boolean cal1 = false;
+        System.out.println("Hello world");
         for (String arg : args) {
             String[] temp = arg.split("/");
             if (temp[0].equals("Пироженое")) {
